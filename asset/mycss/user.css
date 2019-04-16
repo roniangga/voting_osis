@@ -1,0 +1,99 @@
+.nav-user{
+	height: 50px;
+	background-color: white;
+	border-bottom: 2px solid grey;
+	padding-right: 40px;
+}
+
+.kandidat{
+	height: 500px;
+	box-shadow: 0.1px 0.1px 2px black;
+	margin-top: 10px;
+	padding: 25px;
+	padding-top: 0px;
+}
+
+.user-dropdown{
+	margin-left: auto;
+}
+
+.user-dropdown-img{
+	width: 45px;
+	height: 45px;
+	margin-top: 2.5px;
+}
+
+.visi-text{
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.misi-text{
+}
+
+.content-visi-misi{
+	font-size: 13px;
+	cursor: pointer;
+}
+
+
+
+/*dekstop version*/
+@media (min-width: 992px) {
+	.title-welcome{
+		padding: 10px;
+	}
+
+	.logo{
+		width: 46px;
+		height: 50px;
+		margin-left: 2px;
+	}
+}
+
+
+
+/*mobile version*/
+@media (max-width: 992px) {
+	.nav-user{
+	height: 50px;
+	background-color: white;
+	border-bottom: 2px solid grey;
+	padding-right: 20px;
+}
+	.title-welcome{
+		font-size: 12px;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	.logo{
+		width: 46px;
+		height: 50px;
+		margin-left: 2px;
+	}
+
+	.kandidat{
+		height: 550px;
+		box-shadow: 0.1px 0.1px 2px black;
+		margin-top: 10px;
+		padding: 20px;
+	}
+
+	.pilih-button{
+		margin-bottom: 20px;
+	}
+
+	.title-kandidat{
+		font-size: 25px;
+	}
+
+	.user-dropdown{
+	margin-left: auto;
+	}
+
+	.user-dropdown-img{
+		width: 40px;
+		height: 40px;
+		margin-top: 2px;
+	}
+}

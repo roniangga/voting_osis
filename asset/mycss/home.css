@@ -1,0 +1,38 @@
+.halaman-utama{
+	background-color: #e3e3e3;
+	height: 700px;
+	margin: auto;
+	padding-top: 60px;
+}
+.ndas{
+	background-color: #2b2927;
+	height: 55px;
+	border-bottom: 2px solid orange;
+	color: white;
+}
+.ndas h2{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.ndas2{
+	height: 40px;
+	background-color: #e5e5e5;
+}
+.kandidat{
+	height: 400px;
+	background-color: white;
+	margin: auto;
+	transition: 1s;
+	border-radius: 4px;
+}
+.kandidat:hover{
+	box-shadow: 1px 1px 35px black;
+	transition: 1s;
+}
+.ftr{
+	height: 20px;
+	background-color: black;
+	color: #999;
+
+}
